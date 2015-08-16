@@ -1,0 +1,20 @@
+pkgbase = leap-motion-driver-beta
+	pkgdesc = The Leap Motion Driver
+	pkgver = 2.0.3.17004
+	pkgrel = 1
+	url = https://developer.leapmotion.com/downloads
+	install = leap-sdk.install
+	arch = i686
+	arch = x86_64
+	license = custom
+	depends = mesa
+	depends = libxxf86vm
+	conflicts = leap
+	conflicts = leap-motion-driver
+	source = https://dl.dropboxusercontent.com/u/7226803/LeapDeveloperKit_2.0.3%2B17004_linux.tgz
+	source = LICENSE
+	source = leapd.service
+	source = leap-sdk.install
+
+pkgname = leap-motion-driver-beta
+
